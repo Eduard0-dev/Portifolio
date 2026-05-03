@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Portfólio</title>
+  <meta
+    name="description"
+    content="Portfólio pessoal de desenvolvedor front-end com projetos, habilidades e contato."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="bg-blur bg-blur-1"></div>
+  <div class="bg-blur bg-blur-2"></div>
+
+  <header class="header" id="header">
+    <div class="container nav">
+      <a href="#home" class="logo">Meu.<span>Portfólio</span></a>
+
+      <nav class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link active">Início</a>
+        <a href="#sobre" class="nav-link">Sobre</a>
+        <a href="#habilidades" class="nav-link">Habilidades</a>
+        <a href="#projetos" class="nav-link">Projetos</a>
+        <a href="#contato" class="nav-link">Contato</a>
+      </nav>
+
+      <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="container hero-content">
+        <div class="hero-text reveal">
+          <p class="tag">Portfólio de Desenvolvedor</p>
+          <h1>Olá, eu me chamo <br><span>Eduardo</span></br></h1>
+          <h2><span id="typing"></span></h2>
+          <p class="hero-description">
+            Crio interfaces modernas, responsivas e funcionais para web.
+            Estou construindo minha carreira como desenvolvedor e este é o meu
+            espaço para mostrar projetos, habilidades e evolução.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+            <a href="#contato" class="btn btn-outline">Entrar em contato</a>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Eduard0-dev" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/eduardo-lopes00/" target="_blank">LinkedIn</a>
+            <a href="https://www.instagram.com/lopes.edu_/" target="_blank">Instagram</a>
+          </div>
+        </div>
+
+        <div class="hero-card reveal">
+          <div class="profile-card">
+            <div class="profile-image">
+              <img src="/foto eu.jpg" alt="">
+            </div>
+            <h3>Eduardo Lopes</h3>
+            <p>Desenvolvedor Front-End</p>
+            <ul>
+              <li>📍 São Paulo - SP</li>
+              <li>💻 HTML, CSS, JavaScript</li>
+              <li>🚀 Em evolução constante</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about section" id="sobre">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Sobre mim</span>
+          <h2>Quem sou eu</h2>
+        </div>
+
+        <div class="about-content">
+          <div class="about-text reveal">
+            <p>
+              Meu nome é <strong>Eduardo</strong> e estou iniciando minha
+              jornada no desenvolvimento web. Tenho foco em criar sites bonitos,
+              organizados e com boa experiência para o usuário.
+            </p>
+            <p>
+              Estou estudando tecnologias como
+              <strong>HTML, CSS e JavaScript</strong>, e buscando melhorar a cada
+              projeto para conquistar oportunidades na área.
+            </p>
+            <p>
+              Meu objetivo é transformar ideias em páginas modernas, rápidas e
+              profissionais.
+            </p>
+          </div>
+
+          <div class="about-info reveal">
+            <div class="info-card">
+              <h3>+5</h3>
+              <p>Projetos estudando</p>
+            </div>
+            <div class="info-card">
+              <h3>100%</h3>
+              <p>Dedicação para aprender</p>
+            </div>
+            <div class="info-card">
+              <h3>Front-End e Back-End</h3>
+              <p>Foco principal</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills section" id="habilidades">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Habilidades</span>
+          <h2>Tecnologias que utilizo</h2>
+        </div>
+
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3>HTML5</h3>
+            <p>Estruturação semântica e organizada de páginas web.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>CSS3</h3>
+            <p>Estilização moderna, responsiva e com animações.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>JavaScript</h3>
+            <p>Interatividade, manipulação do DOM e funcionalidades dinâmicas.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Responsividade</h3>
+            <p>Layouts adaptados para celular, tablet e desktop.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Git/GitHub</h3>
+            <p>Versionamento de código e publicação de projetos.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>UI Básica</h3>
+            <p>Construção de interfaces simples, bonitas e funcionais.</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3>Python</h3>
+            <p>Automatização de processos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects section" id="projetos">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Projetos</span>
+          <h2>Meus trabalhos</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <div class="project-image gradient-1"></div>
+            <div class="project-content">
+              <h3>Landing Page</h3>
+              <p>
+                Página moderna desenvolvida para treinar estrutura, design e
+                responsividade.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Ver projeto</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image gradient-2"></div>
+            <div class="project-content">
+              <h3>Calculadora</h3>
+              <p>
+                Projeto simples com JavaScript para praticar lógica e eventos.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Ver projeto</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-image gradient-3"></div>
+            <div class="project-content">
+              <h3>Portfólio Pessoal</h3>
+              <p>
+                Site pessoal para apresentar habilidades, projetos e formas de
+                contato.
+              </p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">Ver projeto</a>
+                <a href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact section" id="contato">
+      <div class="container">
+        <div class="section-title reveal">
+          <span>Contato</span>
+          <h2>Vamos conversar</h2>
+        </div>
+
+        <div class="contact-wrapper">
+          <div class="contact-text reveal">
+            <h3>Estou disponível para oportunidades</h3>
+            <p>
+              Se você quiser falar sobre projetos, freelas, parcerias ou vagas,
+              entre em contato comigo.
+            </p>
+
+            <div class="contact-list">
+              <p><strong>Email: </strong>edulopesmartinez@gmail.com</p>
+              <p><strong>WhatsApp:</strong> (11) 94444-8393</p>
+              <p><strong>Cidade:</strong> Guarulhos - SP</p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" placeholder="Seu nome" required />
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" placeholder="Seu e-mail" required />
+            </div>
+            <div class="form-group">
+              <textarea
+                id="message"
+                rows="6"
+                placeholder="Digite sua mensagem"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+            <p class="form-message" id="form-message"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© <span id="year"></span> Eduardo.Lopes - Todos os direitos reservados.</p>
+      <a href="#home" class="back-to-top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
