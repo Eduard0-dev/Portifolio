@@ -24,7 +24,7 @@ O site conta com um design moderno, responsivo e organizado, ideal para desenvol
  ├── index.html
  ├── style.css
  ├── script.js
- ├── foto eu.jpg
+ ├── foto-eu.jpg
  └── README.md
 ```
 
