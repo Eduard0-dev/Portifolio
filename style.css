@@ -419,7 +419,7 @@ textarea {
 
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 
@@ -429,8 +429,19 @@ textarea {
 }
 
 .project-image {
-  height: 210px;
+  height: 170px;
   width: 100%;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px 24px;
+}
+
+.project-kind {
+  font-size: 1.9rem;
+  font-weight: 800;
+  line-height: 1;
+  color: rgba(255, 255, 255, 0.92);
+  letter-spacing: -0.5px;
 }
 
 .gradient-1 {
@@ -443,6 +454,22 @@ textarea {
 
 .gradient-3 {
   background: linear-gradient(135deg, #22c55e, #06b6d4);
+}
+
+.gradient-4 {
+  background: linear-gradient(135deg, #ec4899, #8b5cf6);
+}
+
+.more-projects {
+  grid-column: 1 / -1;
+  justify-self: center;
+  margin-top: 8px;
+  color: var(--secondary);
+  font-weight: 600;
+}
+
+.more-projects:hover {
+  text-decoration: underline;
 }
 
 .project-content {
